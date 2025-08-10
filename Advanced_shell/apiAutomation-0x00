@@ -1,5 +1,4 @@
 #!/bin/bash
-
 URL="https://pokeapi.co/api/v2/pokemon/pikachu"
 curl -s -o data.json --fail "$URL"
 
